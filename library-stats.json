@@ -1,6 +1,0 @@
-{
-    "description": "Our Library Management System streamlines book lending, member tracking, and library operations for efficiency and ease.",
-    "totalBooks": 5000,
-    "totalMembers": 1200,
-    "activeLoans": 300
-  }
