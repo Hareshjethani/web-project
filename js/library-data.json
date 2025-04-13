@@ -1,0 +1,64 @@
+{
+    "features": [
+        {
+            "title": "Catalog Management",
+            "description": "Easily add, edit, and organize your library's collection with our intuitive catalog system.",
+            "icon": "fas fa-book"
+        },
+        {
+            "title": "Member Management",
+            "description": "Track member information, issue library cards, and manage memberships all in one place.",
+            "icon": "fas fa-users"
+        },
+        {
+            "title": "Circulation System",
+            "description": "Streamline checkouts, returns, and renewals with our efficient circulation module.",
+            "icon": "fas fa-exchange-alt"
+        },
+        {
+            "title": "Online Reservations",
+            "description": "Allow patrons to reserve books online and get notifications when available.",
+            "icon": "fas fa-calendar-check"
+        },
+        {
+            "title": "Reporting & Analytics",
+            "description": "Generate comprehensive reports on circulation, inventory, and member activity.",
+            "icon": "fas fa-chart-bar"
+        },
+        {
+            "title": "Mobile App Integration",
+            "description": "Provide members with a companion mobile app for easy access to library services.",
+            "icon": "fas fa-mobile-alt"
+        }
+    ],
+    "testimonials": [
+        {
+            "content": "LibraTech has transformed how we manage our library. The system is intuitive and has reduced our administrative workload by at least 40%.",
+            "name": "liba",
+            "position": "Head Librarian",
+            "organization": "Springfield Public Library",
+            "image": "https://randomuser.me/api/portraits/women/65.jpg"
+        },
+        {
+            "content": "Since implementing LibraTech, our patrons have commented on how much easier it is to find and reserve books. The online portal is a game-changer.",
+            "name": "Zahid ",
+            "position": "Library Director",
+            "organization": "Metropolitan College",
+            "image": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        {
+            "content": "The reporting features alone make LibraTech worth it. We can now track circulation trends and make data-driven collection decisions.",
+            "name": "maryam",
+            "position": "Technical Services Librarian",
+            "organization": "University of Westfield",
+            "image": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+            "content": "Our small community library needed an affordable but powerful solution. LibraTech delivered exactly what we needed without unnecessary complexity.",
+            "name": "Zain",
+            "position": "Volunteer Coordinator",
+            "organization": "Pine Grove Library",
+            "image": "https://randomuser.me/api/portraits/men/75.jpg"
+        }
+    ]
+}

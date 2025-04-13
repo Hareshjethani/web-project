@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LibraTech | Modern Library Management System</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <link rel="stylesheet" href="css/animate.css" />
+  
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="LibraTech" height="40" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <button class="btn btn-primary ms-3" id="authModalTrigger" data-bs-toggle="modal" data-bs-target="#authModal">Login/Signup</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content wow fadeInLeft">
+          <h1>Modern Library Management System</h1>
+          <p class="lead">Streamline your library operations with our comprehensive, cloud-based solution designed for libraries of all sizes.</p>
+          <div class="hero-buttons">
+            <a href="#demo" class="btn btn-primary btn-lg me-3">Request Demo</a>
+            <a href="#features" class="btn btn-outline-light btn-lg">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight">
+          <img src="images/library-bg.jpg" alt="Library Management System" class="img-fluid rounded shadow-lg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="features" class="features-section py-5 bg-light">
+    <div class="container">
+      <div class="section-header text-center mb-5 wow fadeInUp">
+        <h2>Powerful Features</h2>
+        <p class="lead">Everything you need to manage your library efficiently</p>
+      </div>
+      <div class="row g-4" id="features-container">
+       
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 wow fadeInLeft">
+          <img src="images/bookshelf.jpg" alt="About Our System" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-lg-6 wow fadeInRight">
+          <h2>About LibraTech</h2>
+          <p>LibraTech is a comprehensive library management solution developed by a team of library professionals and software engineers with over 15 years of combined experience.</p>
+          <p>Our system is designed to simplify complex library operations while providing an intuitive interface for both staff and patrons.</p>
+          <ul class="about-features">
+            <li><i class="fas fa-check-circle"></i> Cloud-based or on-premise installation</li>
+            <li><i class="fas fa-check-circle"></i> 24/7 customer support</li>
+            <li><i class="fas fa-check-circle"></i> Regular feature updates</li>
+            <li><i class="fas fa-check-circle"></i> GDPR compliant</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="stats-section py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="stat-item">
+            <h3 class="counter" data-target="1250">0</h3>
+            <p>Libraries Worldwide</p>
+          </div>
+        </div>
+        <div class="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="stat-item">
+            <h3 class="counter" data-target="4.8">0</h3>
+            <p>Average Rating</p>
+          </div>
+        </div>
+        <div class="col-md-3 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="stat-item">
+            <h3 class="counter" data-target="98">0</h3>
+            <p>% Uptime</p>
+          </div>
+        </div>
+        <div class="col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="stat-item">
+            <h3 class="counter" data-target="24">0</h3>
+            <p>/7 Support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="testimonials" class="testimonials-section py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5 wow fadeInUp">
+        <h2>What Our Clients Say</h2>
+        <p class="lead">Trusted by libraries around the world</p>
+      </div>
+      <div class="row" id="testimonials-container">
+        
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact-section py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInLeft">
+          <h2>Get In Touch</h2>
+          <p>Have questions about our library management system? Contact our team for more information or to schedule a demo.</p>
+          <div class="contact-info mt-4">
+            <p><i class="fas fa-map-marker-alt"></i> faisalabad,pakistan</p>
+            <p><i class="fas fa-phone"></i> +92324-1232434</p>
+            <p><i class="fas fa-envelope"></i> info@libratech.com</p>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight">
+          <form id="contactForm" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required />
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="subject" placeholder="Subject" required />
+              <div class="invalid-feedback">Please enter a subject.</div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+              <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div id="formSuccess" class="alert alert-success mt-3 d-none">Thank you! Your message has been sent successfully.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer py-4 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5>About LibraTech</h5>
+          <p>Leading provider of library management solutions since 2024. Our mission is to empower libraries with innovative technology.</p>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5>Connect With Us</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="newsletter mt-3">
+            <input type="email" placeholder="Your Email" class="form-control" />
+            <button class="btn btn-sm btn-primary mt-2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; 2025 LibraTech. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0">Terms of Service | Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="authModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content auth-modal-content">
+        <div class="modal-body">
+          <button type="button" class="btn-close auth-close" data-bs-dismiss="modal"></button>
+          <div class="auth-tabs">
+            <ul class="nav nav-tabs" id="authTab">
+              <li class="nav-item">
+                <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login">Login</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup">Sign Up</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="authTabContent">
+              <div class="tab-pane fade show active" id="login">
+                <form id="loginForm">
+                  <div class="auth-form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" class="auth-form-control" id="loginEmail" required />
+                  </div>
+                  <div class="auth-form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" class="auth-form-control" id="loginPassword" required />
+                  </div>
+                  <div class="auth-form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe" />
+                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                  </div>
+                  <button type="submit" class="auth-btn-primary w-100">Login</button>
+                  <div class="text-center mt-3">
+                    <a href="#" class="text-muted">Forgot password?</a>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="signup">
+                <form id="signupForm">
+                  <div class="row">
+                    <div class="col-md-6 auth-form-group">
+                      <label for="firstName">First Name</label>
+                      <input type="text" class="auth-form-control" id="firstName" required />
+                    </div>
+                    <div class="col-md-6 auth-form-group">
+                      <label for="lastName">Last Name</label>
+                      <input type="text" class="auth-form-control" id="lastName" required />
+                    </div>
+                  </div>
+                  <div class="auth-form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" class="auth-form-control" id="signupEmail" required />
+                  </div>
+                  <div class="auth-form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" class="auth-form-control" id="signupPassword" required />
+                  </div>
+                  <div class="auth-form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" class="auth-form-control" id="confirmPassword" required />
+                  </div>
+                  <button type="submit" class="auth-btn-primary w-100">Sign Up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+ 
+  <script src="js/script.js"></script>
+</body>
+</html>
